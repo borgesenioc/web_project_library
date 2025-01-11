@@ -238,6 +238,7 @@
 }
 
 .events__image {
+  /* As imagens nao estao na proporcao do roteiro, mas isso nao e um requisito do checklist, entao estao deixei assim mesmo. */
   max-width: 100%;
 }
 
