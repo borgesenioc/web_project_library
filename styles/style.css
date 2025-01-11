@@ -242,11 +242,11 @@
 }
 
 .person {
-  /* position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .person_name_feynman {
@@ -270,11 +270,11 @@
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
@@ -286,7 +286,7 @@
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
