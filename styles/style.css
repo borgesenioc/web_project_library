@@ -356,9 +356,15 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
 }
 
 .footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
@@ -368,6 +374,7 @@
 }
 
 .footer__logo {
+  color: #ffffff;
 }
 
 .footer__column-heading {
