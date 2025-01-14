@@ -360,29 +360,41 @@
   color: #ffffff;
   padding: 0;
   font-size: 16px;
+  margin: 0;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; /*evaluate*/
-  padding: 60px 80px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__column_content_hours {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
 }
 
 .footer__column_content_social {
   padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-right: 80px;
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
+  padding-left: 80px;
+  padding-top: 60px;
 }
 
 .footer__column-heading {
+  padding-bottom: 0px;
   margin: 0;
 }
 
@@ -390,7 +402,7 @@
   /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
-  margin-top: 4px;
+  margin: 0;
 }
 
 .footer__list-item {
@@ -414,4 +426,8 @@
   padding-top: 100px;
   padding-left: 80px;
   padding-bottom: 60px;
+}
+
+* {
+  border: 1px solid red;
 }
