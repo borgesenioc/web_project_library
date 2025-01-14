@@ -383,19 +383,18 @@
 }
 
 .footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .footer__list {
   /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 4px;
 }
 
 .footer__list-item {
-  padding: 0 16px 0 0;
+  padding-top: 16px;
 }
 
 .footer__column-link {
