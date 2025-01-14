@@ -403,6 +403,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  padding-top: 20px;
 }
 
 .footer__list-item {
@@ -426,8 +427,4 @@
   padding-top: 100px;
   padding-left: 80px;
   padding-bottom: 60px;
-}
-
-* {
-  border: 1px solid red;
 }
