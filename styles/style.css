@@ -358,7 +358,7 @@
   box-sizing: border-box;
   background-color: #000000;
   color: #ffffff;
-  padding: 80px 60px;
+  padding: 80px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -366,6 +366,7 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .footer__column_content_hours {
