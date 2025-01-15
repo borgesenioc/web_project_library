@@ -16,8 +16,6 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 .nav {
@@ -66,8 +64,6 @@
 
 .header__image {
   max-width: 636px;
-  height: auto;
-  margin: auto 0;
 }
 
 .header__footer {
