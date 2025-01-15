@@ -16,6 +16,8 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .nav {
