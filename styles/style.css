@@ -371,6 +371,14 @@
   margin: 0;
 }
 
+.footer__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
 .footer__column_content_hours {
   margin-left: auto;
   display: flex;
